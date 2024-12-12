@@ -47,7 +47,6 @@ namespace GC.Code.GameRoot
 
             var gameplayEntryPoint = Object.FindFirstObjectByType<GameplayEntryPoint>();
             gameplayEntryPoint.Run();
-
             _loadingScreen.HideLoadingScreen();
         }
 
